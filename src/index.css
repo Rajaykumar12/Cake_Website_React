@@ -1,0 +1,138 @@
+.mainNav{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 15px;
+    background-color: rgb(185, 122, 99);
+    padding: 5px;
+}
+
+.subnav{
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(185, 122, 99);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#search_bar{
+    border-radius: 10px;
+    width: 200px ;
+    height: 20px;
+    border-width: 3.5px;
+    border-color: brown;
+    margin-right: 10px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+#submit{
+    border-radius: 10px;
+    width: 75px;
+    height: 25px;
+    background-color: bisque;
+    background-origin: padding-box;
+    border-color: brown;
+    border-width: 3.5px;
+    color:dimgrey;
+}
+#search{
+    place-content: right;
+}
+
+.main{
+    text-align: center;
+    background-color: rgb(78, 139, 160);
+    color: rgb(237, 179, 102);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+html{
+    background-color: rgb(172, 178, 183);
+}
+
+
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    background-color:rgb(207, 122, 62);
+    position: relative;
+    color: rgb(203, 203, 202);
+    border-radius: 15px;
+}
+
+.number{
+    color: rgb(65, 65, 215);
+    padding-top: 10px;
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 3px grey;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    flex: 0 0 auto;
+}
+
+.card .card-image{
+    max-width: 100px;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card .card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rgb(23, 88, 211);
+    text-decoration: none;
+}
+
+.cart-item-image{
+    width: 150px;
+    height: 150px;
+}
+.section{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.title{
+    font-family:Tahoma;
+    color: rgb(162, 122, 74);
+}
+
+.ingredients{
+    text-align: center;
+    text-decoration: none;
+}
+
+.detail{
+    color: rgb(55, 93, 164);
+}
+
+.addtocart{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    color: antiquewhite;
+    background-color: grey;
+    border-color: antiquewhite;
+}
+
+.button{
+    padding: 10px;
+}
