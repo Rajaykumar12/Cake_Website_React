@@ -18,7 +18,6 @@ import Italian from './Details/Italian'
 import Stollen from './Details/Stollen'
 import Torte from './Details/Torte'
 import King from './Details/King'
-import Cart from './pages/Cart'
 const App = () => {
   return (
     <html>
@@ -42,7 +41,6 @@ const App = () => {
               <Route path='/Details/Citrus' element={<Citrus/>}/>
               <Route path='/Details/Italian' element={<Italian/>}/>
               <Route path='/Details/Stollen' element={<Stollen/>}/>
-              <Route path='/pages/Cart' element={<Cart/>}/>
               <Route path='/Details/Torte' element={<Torte/>}/>
               <Route path='/Details/King' element={<King/>}/>
             </Routes>

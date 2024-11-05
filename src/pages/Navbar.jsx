@@ -10,7 +10,6 @@ export default function Navbar() {
           <ul className="mainNav">
               <li><Link className='subnav' to="/">Home</Link></li>
               <li><Link className='subnav' to="/pages/Contact">Contact</Link></li>
-              <li><Link className='subnav' to="/pages/Cart">Cart</Link></li>
               <li className='subnav'>
                 <div id="search">
                   <input id="search_bar" type="text" placeholder="Search.."></input>
