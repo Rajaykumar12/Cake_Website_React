@@ -4,11 +4,9 @@
 nav {
     display: flex;
     list-style: none;
-    text-decoration: none;
     text-align: left;
     border-radius: 15px;
     background-color: #FFDAB9;
-    padding: 5px;
 }
 
 nav ul{
@@ -44,8 +42,9 @@ nav a {
     border-radius: 10px;
     width: 200px;
     height: 20px;
-    border-width: 3.5px;
-    border-color: brown;
+    color: #4B4B4B;
+    border: none;
+    background-color: #FFF5EE;
     margin-right: 10px;
     margin-left: 500px;
     margin-bottom: 10px;
@@ -54,24 +53,21 @@ nav a {
     border-radius: 10px;
     width: 75px;
     height: 25px;
-    background-color: bisque;
+    background-color: #e89761;
     background-origin: padding-box;
-    border-color: brown;
-    border-width: 3.5px;
-    color:dimgrey;
+    border: none;
+    color: #4B4B4B;
 }
 #search{
-    place-content: right;
+    margin-left: auto;
+    /*display: flex;
+    align-items: center;*/
 }
 
 .main{
     text-align: center;
     background-color: rgb(78, 139, 160);
     color: rgb(237, 179, 102);
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 15px;
-    border-radius: 25px;
 }
 
 html{
@@ -97,7 +93,7 @@ html{
 
 .card{
     border: none;
-    background-color: #2A2A2A;
+    background-color: #fee4e7 !important;
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
