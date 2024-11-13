@@ -1,8 +1,9 @@
 import React from 'react'
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import Navbar from './pages/Navbar'
 import Contact from './pages/Contact'
+import SignUp from './pages/SignUp'
 import Velvet from './Details/Velvet'
 import Vanilla from './Details/Vanilla'
 import ClassicChoco from './Details/CLassicChoco'
@@ -28,6 +29,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/pages/Contact" element={<Contact/>}/>
+              <Route path='/pages/Signup' element={<SignUp/>}/>
               <Route path="/pages/Velvet" element={<Velvet/>}/>
               <Route path="/pages/Vanilla" element={<Vanilla/>}/>
               <Route path="/Details/CLassicChoco" element={<ClassicChoco/>}/>
