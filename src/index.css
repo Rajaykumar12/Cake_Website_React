@@ -158,3 +158,44 @@ html{
 .button{
     padding: 10px;
 }
+
+.form{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-contents{
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color:darkolivegreen;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.button1{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    background-color: darkgray;
+}
+
+.signup{
+    text-align: center;
+    font-family: sans-serif;
+    color: chocolate;
+}
+
+.price{
+    color: antiquewhite;
+}
