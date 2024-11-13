@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Navbar from './pages/Navbar'
 import Contact from './pages/Contact'
 import SignUp from './pages/SignUp'
+import Login from './pages/Login'
 import Velvet from './Details/Velvet'
 import Vanilla from './Details/Vanilla'
 import ClassicChoco from './Details/CLassicChoco'
@@ -30,6 +31,7 @@ const App = () => {
               <Route path="/" element={<Home/>}/>
               <Route path="/pages/Contact" element={<Contact/>}/>
               <Route path='/pages/Signup' element={<SignUp/>}/>
+              <Route path='/pages/Login' element={<Login/>}/>
               <Route path="/pages/Velvet" element={<Velvet/>}/>
               <Route path="/pages/Vanilla" element={<Vanilla/>}/>
               <Route path="/Details/CLassicChoco" element={<ClassicChoco/>}/>

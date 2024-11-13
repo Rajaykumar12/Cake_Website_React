@@ -97,7 +97,7 @@ html{
 
 .card{
     border: none;
-    background-color: #2A2A2A;
+    background-color: #7b7878;
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
@@ -198,4 +198,8 @@ input{
     text-align: center;
     font-family: sans-serif;
     color: chocolate;
+}
+
+.price{
+    color: antiquewhite;
 }

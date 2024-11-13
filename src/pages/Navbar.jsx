@@ -11,7 +11,8 @@ export default function Navbar() {
           <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/pages/Contact">Contact</Link></li>
-              <li><Link className='subnav' to="/pages/Signup">Sign Up</Link></li>
+              <li><Link to="/pages/Signup">Sign Up</Link></li>
+              <li><Link to="/pages/Login">Login</Link></li>
               <li>
                 <div id="search">
                   <input id="search_bar" type="text" placeholder="Search.."></input>
