@@ -19,6 +19,7 @@ export default function SignUp() {
     }
   return (
     <>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <h2 className='signup'>Sign Up</h2>
         <div className='form'>
             <div className='form-contents'>

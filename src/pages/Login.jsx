@@ -3,6 +3,7 @@ import React from 'react'
 export default function Login() {
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <h2 className='signup'>Login</h2>
         <div className='form'>
                 <div className='form-contents'>

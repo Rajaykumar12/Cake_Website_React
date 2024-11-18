@@ -43,6 +43,7 @@ export default function Contents() {
 
   return (
     <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <h2 className='title'>Today's Special</h2>
       <div className='section'>
         {cakes.slice(0, 3).map((cake, index) => (
